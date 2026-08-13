@@ -127,10 +127,15 @@
             background-color: #0d1117;
             border: 3px solid #21262d;
             border-radius: 10px;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
-            color: #8b949e;
-            font-size: 14px;
+        }
+
+        .monitor-mockup img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            display: block;
         }
 
         .connect-details h2 {
@@ -320,7 +325,7 @@
     <header>
         <button class="nav-link" onclick="document.getElementById('segitseg').scrollIntoView();">Segítség</button>
         <span class="nav-divider">|</span>
-        <button class="nav-link" onclick="document.getElementById(' kozosseg').scrollIntoView();">Közösség</button>
+        <button class="nav-link" onclick="document.getElementById('kozosseg').scrollIntoView();">Közösség</button>
         <span class="nav-divider">|</span>
         <a href="https://discord.gg/tVzp7sYgv" target="_blank" class="nav-link">Szabályzat</a>
     </header>
@@ -331,19 +336,16 @@
         </div>
         <h1>GUIDMTA</h1>
         <p>Kezd el a saját RP Karaktered a GUIDMTA szerverén, és alakítsd úgy a karaktered - ahogyan szeretnéd!</p>
-        <a href="https://multitheftauto.com/" target="_blank" class="btn-green">
+        <button class="btn-green" onclick="return false;">
             ▶ Csatlakozz most
-        </a>
+        </button>
     </section>
 
     <div id="segitseg"></div>
     <section class="content-section">
         <div class="connect-wrapper">
             <div class="monitor-mockup">
-                <div style="background: #161b22; padding: 40px 20px; border-radius: 6px; border: 1px solid #30363d;">
-                    <p style="color: #58a6ff; font-weight: 600; font-size: 16px;">GUIDMTA Kliens</p>
-                    <p style="font-size: 13px; color: #8b949e; margin-top: 8px;">Minden kész a játékhoz!</p>
-                </div>
+                <img src="monitor.png" alt="Monitor Kép">
             </div>
             <div class="connect-details">
                 <h2>Csatlakozás a GUIDMTA szerverére</h2>
